@@ -1,0 +1,62 @@
+/* Navigation styles */
+nav {
+    background-color: darkblue;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    display: block;
+    padding: 20px;
+}
+
+/* Header styles */
+h1 {
+    color: darkblue;
+}
+
+/* Main content styling */
+main {
+    max-width: 840px;
+}
+
+/* Image styles */
+main img {
+    width: 150px;
+    /* Ensures the profile image is smaller */
+    height: auto;
+    border: 1px solid black;
+    padding: 2px;
+    box-shadow: 0 0 30px gray;
+}
+
+/* Aside (Country Info Section) */
+aside {
+    width: 20rem;
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    /* Subtle transparent border */
+    padding: 1rem;
+    background-color: #eee;
+    color: #333;
+    text-align: center;
+}
+
+/* Ensuring aside images follow specific requirements */
+aside img {
+    width: 200px;
+    height: auto;
+}
+
+/* Paragraph styles */
+p {
+    padding: 0;
+    /* Changed to 0 as per instructions */
+}
+
+/* Footer styling */
+footer {
+    margin-top: 15px;
+    border-top: 1px solid #000;
+    text-align: center;
+}

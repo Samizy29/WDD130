@@ -19,6 +19,7 @@ h1 {
 /* Image styling for images inside the main element */
 main img {
     width: 200px;
+    max-width: 300px;
     height: auto;
     border: 1px solid black;
     padding: 2px;
@@ -27,7 +28,7 @@ main img {
 
 /* Paragraph styling */
 p {
-    padding: 10px;
+    padding: 0px;
 }
 
 /* Styling for the aside element */

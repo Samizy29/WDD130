@@ -1,8 +1,10 @@
 /* Define CSS variables for the color scheme */
 :root {
-    --primary-color: #1e91d6;
-    --secondary-color: #0072bb;
-    --accent-color: #8fc93a;
+    --primary-color: #3498db;
+    --secondary-color: #2ecc71;
+    --accent-color: #e74c3c;
+    --accent-color-2: #f1c4df;
+    /* New accent color added*/
     --highlight-color: #e4cc37;
     --text-color: #333;
     --background-color: #f9f9f9;
@@ -16,11 +18,13 @@ body {
     margin: 0;
     padding: 0;
     max-width: 1200px;
-    margin: auto; /* Center the page */
+    margin: auto;
+    /* Center the page */
 }
 
 /* Headings and paragraphs */
-h1, h2 {
+h1,
+h2 {
     color: var(--primary-color);
 }
 
@@ -64,7 +68,8 @@ article {
     position: absolute;
     bottom: 10%;
     left: 5%;
-    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+    background-color: rgba(255, 255, 255, 0.8);
+    /* Semi-transparent background */
     padding: 1rem;
     border-radius: 8px;
     max-width: 600px;

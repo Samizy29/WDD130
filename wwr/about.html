@@ -2,70 +2,107 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="About Us page for White Water Rafting company.">
-    <meta name="author" content="Your Name">
-    <link rel="icon" href="../images/favicon.ico" type="image/x-icon">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="About Us page for White Water Rafting company." />
+    <meta name="author" content="Your Name" />
+    <link rel="icon" href="../images/favicon.ico" type="image/x-icon" />
 
     <!-- Google Font Links -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet" />
 
     <!-- Link to external CSS file -->
-    <link rel="stylesheet" href="../styles/rafting.css">
-
-    <!-- Color Palette: https://coolors.co/1e91d6-0072bb-8fc93a-e4cc37 -->
+    <link rel="stylesheet" href="../styles/rafting.css" />
 
     <title>About Us - White Water Rafting</title>
 </head>
 
 <body>
     <header>
-        <!-- Add meaningful content here -->
-        <img src="images/logo.png" alt="White Water Rafting Logo" width="100" height="100">
+        <img src="images/logo.png" alt="White Water Rafting Logo" />
+        <h1>White Water Rafting</h1>
         <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html">About Us</a>
-            <a href="services.html">Services</a>
-            <a href="contact.html">Contact</a>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
         </nav>
     </header>
     <main>
-        <div class="hero" style="background-image: url('images/hero-image.jpg'); background-size: cover; background-position: center; height: 100vh;">
-            <h1>White Water Rafting</h1>
+        <div class="hero" style="background-image: url('images/hero-image.jpg');">
+            <h1>Welcome to Our Adventure</h1>
         </div>
         <article>
-            <h2>About Our Company</h2>
-            <img src="images/happy-client.avif" alt="Happy Client" width="300" height="200">
-            <p>Our mission is to provide thrilling and safe white water rafting experiences for adventurers of all levels.</p>
-            <section>
-                <h2>History</h2>
-                <p>Founded in 1990, our company has been delivering unforgettable rafting adventures for over three decades.</p>
+            <section class="about-company">
+                <h2>About Our Company</h2>
+                <img src="images/happy-client.avif" alt="Happy Client">
+                <p>
+                    Our mission is to provide thrilling and safe white water rafting experiences for adventurers of all
+                    levels.
+                </p>
             </section>
-            <section>
+            <section class="history">
+                <h2>History</h2>
+                <div class="history-content">
+                    <div>
+                        <h3>Early Beginnings</h3>
+                        <p>Founded in 1990, our company has been delivering unforgettable rafting adventures for over
+                            three decades.</p>
+                    </div>
+                    <div>
+                        <h3>Our Growth</h3>
+                        <p>Through innovation and passion for the water, we’ve grown into one of the premier rafting
+                            companies.</p>
+                    </div>
+                </div>
+            </section>
+            <section class="adventures">
                 <h2>Adventure Awaits You!</h2>
-                <img src="images/rafting-1.jpeg" alt="Rafting Adventure 1" width="200" height="150">
-                <img src="images/rafting-2.jpeg" alt="Rafting Adventure 2" width="200" height="150">
-                <img src="images/rafting-3.jpeg" alt="Rafting Adventure 3" width="200" height="150">
-                <img src="images/rafting-4.jpeg" alt="Rafting Adventure 4" width="200" height="150">
-                <img src="images/rafting-5.jpeg" alt="Rafting Adventure 5" width="200" height="150">
+                <div class="adventure-gallery">
+                    <figure>
+                        <img src="images/rafting-1.jpeg" alt="Los Dientes del Diablo">
+                        <figcaption>Los Dientes del Diablo</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="images/rafting-2.jpeg" alt="Big Mallard">
+                        <figcaption>Big Mallard</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="images/rafting-3.jpeg" alt="Half Day Adventure">
+                        <figcaption>Half Day Adventure</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="images/rafting-4.jpeg" alt="Rapid Rush">
+                        <figcaption>Rapid Rush</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="images/rafting-5.jpeg" alt="Wild River">
+                        <figcaption>Wild River</figcaption>
+                    </figure>
+                </div>
             </section>
         </article>
     </main>
     <footer>
         <p>&copy; 2025 White Water Rafting. Designed by Oni Samuel Akintola.</p>
-        <a href="https://facebook.com" target="_blank">
-            <img src="images/Facebook_logo.jpeg" alt="Facebook" width="30" height="30">
-        </a>
-        <a href="https://twitter.com" target="_blank">
-            <img src="images/Twitter-logo.jpeg" alt="Twitter" width="30" height="30">
-        </a>
-        <a href="https://instagram.com" target="_blank">
-            <img src="images/instagram_logo.jpeg" alt="Instagram" width="30" height="30">
-        </a>
+        <div class="social">
+            <a href="https://facebook.com" target="_blank">
+                <img src="images/Facebook_logo.jpeg" alt="Facebook">
+            </a>
+            <a href="https://twitter.com" target="_blank">
+                <img src="images/Twitter-logo.jpeg" alt="Twitter">
+            </a>
+            <a href="https://instagram.com" target="_blank">
+                <img src="images/instagram_logo.jpeg" alt="Instagram">
+            </a>
+        </div>
     </footer>
 </body>
 
